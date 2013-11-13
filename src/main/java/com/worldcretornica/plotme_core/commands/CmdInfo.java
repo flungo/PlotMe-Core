@@ -31,6 +31,11 @@ public class CmdInfo extends PlotCommand {
                                 + GREEN + " " + C("InfoFinished") + ": " + AQUA + ((plot.finished) ? C("WordYes") : C("WordNo"))
                                 + GREEN + " " + C("InfoProtected") + ": " + AQUA + ((plot.protect) ? C("WordYes") : C("WordNo")));
 
+                        if (plot.baseY > 1 || plot.height < 255) {
+                            p.sendMessage(GREEN + C("InfoBase") + ": " + AQUA + plot.baseY
+                                    + GREEN + " " + C("InfoHeight") + ": " + AQUA + plot.height);
+                        }
+
                         if (plot.allowedcount() > 0) {
                             p.sendMessage(GREEN + C("InfoHelpers") + ": " + AQUA + plot.getAllowed());
                         }

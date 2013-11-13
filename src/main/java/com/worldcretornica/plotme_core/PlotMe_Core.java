@@ -962,6 +962,8 @@ public class PlotMe_Core extends JavaPlugin {
         properties.put("InfoExpire", "Expire date");
         properties.put("InfoFinished", "Finished");
         properties.put("InfoProtected", "Protected");
+        properties.put("InfoBase", "Base");
+        properties.put("InfoHeight", "Height");
         properties.put("InfoHelpers", "Helpers");
         properties.put("InfoDenied", "Denied");
         properties.put("InfoAuctionned", "Auctionned");
