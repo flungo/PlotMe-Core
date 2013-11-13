@@ -243,7 +243,7 @@ public class PMCommand implements CommandExecutor {
                         if (a0.equalsIgnoreCase(C("CommandSubHeight")) || a0.equalsIgnoreCase("-h")) {
                             return setHeight.subtract(p, args);
                         }
-                        if (a0.equalsIgnoreCase(C("CommandSetBase")) || a0.equalsIgnoreCase("b")) {
+                        if (a0.equalsIgnoreCase(C("CommandSetBase"))) {
                             return setBase.exec(p, args);
                         }
                         if (a0.equalsIgnoreCase(C("CommandMove")) || a0.equalsIgnoreCase("m")) {
