@@ -47,7 +47,7 @@ permissions:
         plotme.admin.remove: true
         plotme.admin.setowner: true
         plotme.admin.setheight: true
-        plotme.admin.setbase: true
+        plotme.admin.setowner: true
         plotme.admin.move: true
         plotme.admin.weanywhere: true
         plotme.admin.list: true

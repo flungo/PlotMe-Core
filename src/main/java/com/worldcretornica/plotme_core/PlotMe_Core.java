@@ -2,7 +2,6 @@ package com.worldcretornica.plotme_core;
 
 import com.griefcraft.model.Protection;
 import com.sk89q.worldedit.bukkit.WorldEditPlugin;
-import com.worldcretornica.plotme_core.Metrics.Graph;
 import com.worldcretornica.plotme_core.api.v0_14b.IPlotMe_ChunkGenerator;
 import com.worldcretornica.plotme_core.api.v0_14b.IPlotMe_GeneratorManager;
 import com.worldcretornica.plotme_core.listener.PlotDenyListener;
@@ -45,6 +44,8 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitTask;
+import org.mcstats.Metrics;
+import org.mcstats.Metrics.Graph;
 import org.yaml.snakeyaml.Yaml;
 
 public class PlotMe_Core extends JavaPlugin {
